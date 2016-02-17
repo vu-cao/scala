@@ -3,15 +3,32 @@ package week2
 /**
   * Created by Vu on 2/16/2016.
   */
-class Rational(x: Int, y: Int) {
-  val a = x
-  val b = y
+class Rational(val a: Int, val b: Int) {
+  val g = gcd(a, b)
+  def + (that: Rational) = new Rational(a*that.b + that.a*b, b*that.b)
 
-  def + (that: Rational) = new Rational(a*that.b + that.b*a, b*that.b)
-
-  def unary_- = new Rational(-x, y)
+  def unary_- = new Rational(-a, b)
 
   def - (that: Rational) = this + -that
 
-  override def toString = a.toString + "/" + b.toString
+  def max(that: Rational): Rational = {
+    val tmp: Rational = this - that
+    if (tmp.a > 0) this
+    else that
+  }
+
+  def less(that: Rational): Boolean = {
+    val tmp = this - that
+    if (tmp.a < 0) true
+    else false
+  }
+
+  private def gcd(a: Int, b: Int): Int = {
+    if (b == 0) a
+    else gcd(b, a % b)
+  }
+
+  override def toString = {
+    (a / g).toString + "/" + (b / g).toString
+  }
 }
