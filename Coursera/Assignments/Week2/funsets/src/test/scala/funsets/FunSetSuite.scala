@@ -107,6 +107,12 @@ class FunSetSuite extends FunSuite {
       assert(contains(s, 1), "Union 1")
       assert(contains(s, 2), "Union 2")
       assert(!contains(s, 3), "Union 3")
+
+      val ss = union(s, s3)
+      assert(forall(ss, (x: Int) => x < 4), "FAILED forall")
+      assert(exists(ss, (x: Int) => x % 2 == 0), "FAILED exists")
+
+      assert(contains(map(ss, (x: Int) => x * x), 9), "MAP FAILED")
     }
   }
 

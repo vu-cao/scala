@@ -1,0 +1,194 @@
+format version: 5
+output mode:
+1 items
+0 -> single
+output directories:
+1 items
+output dir -> E:\Projects\Scala\Coursera\Assignments\Week2\funsets\project\target\scala-2.10\sbt-0.13\classes
+compile options:
+0 items
+javac options:
+0 items
+compiler version:
+1 items
+0 -> 2.10.4
+compile order:
+1 items
+0 -> Mixed
+name hashing:
+1 items
+0 -> true
+products:
+9 items
+E:\Projects\Scala\Coursera\Assignments\Week2\funsets\project\ProgFunBuild.scala -> E:\Projects\Scala\Coursera\Assignments\Week2\funsets\project\target\scala-2.10\sbt-0.13\classes\ParprogBuild$$anonfun$assignmentSettings$1.class
+E:\Projects\Scala\Coursera\Assignments\Week2\funsets\project\ProgFunBuild.scala -> E:\Projects\Scala\Coursera\Assignments\Week2\funsets\project\target\scala-2.10\sbt-0.13\classes\ParprogBuild$$anonfun$assignmentSettings$2.class
+E:\Projects\Scala\Coursera\Assignments\Week2\funsets\project\ProgFunBuild.scala -> E:\Projects\Scala\Coursera\Assignments\Week2\funsets\project\target\scala-2.10\sbt-0.13\classes\ParprogBuild$$anonfun$assignmentSettings$3.class
+E:\Projects\Scala\Coursera\Assignments\Week2\funsets\project\ProgFunBuild.scala -> E:\Projects\Scala\Coursera\Assignments\Week2\funsets\project\target\scala-2.10\sbt-0.13\classes\ParprogBuild$$anonfun$assignmentSettings$4$$anonfun$apply$1$$anonfun$1.class
+E:\Projects\Scala\Coursera\Assignments\Week2\funsets\project\ProgFunBuild.scala -> E:\Projects\Scala\Coursera\Assignments\Week2\funsets\project\target\scala-2.10\sbt-0.13\classes\ParprogBuild$$anonfun$assignmentSettings$4$$anonfun$apply$1$$anonfun$2.class
+E:\Projects\Scala\Coursera\Assignments\Week2\funsets\project\ProgFunBuild.scala -> E:\Projects\Scala\Coursera\Assignments\Week2\funsets\project\target\scala-2.10\sbt-0.13\classes\ParprogBuild$$anonfun$assignmentSettings$4$$anonfun$apply$1.class
+E:\Projects\Scala\Coursera\Assignments\Week2\funsets\project\ProgFunBuild.scala -> E:\Projects\Scala\Coursera\Assignments\Week2\funsets\project\target\scala-2.10\sbt-0.13\classes\ParprogBuild$$anonfun$assignmentSettings$4.class
+E:\Projects\Scala\Coursera\Assignments\Week2\funsets\project\ProgFunBuild.scala -> E:\Projects\Scala\Coursera\Assignments\Week2\funsets\project\target\scala-2.10\sbt-0.13\classes\ParprogBuild$.class
+E:\Projects\Scala\Coursera\Assignments\Week2\funsets\project\ProgFunBuild.scala -> E:\Projects\Scala\Coursera\Assignments\Week2\funsets\project\target\scala-2.10\sbt-0.13\classes\ParprogBuild.class
+binary dependencies:
+10 items
+E:\Projects\Scala\Coursera\Assignments\Week2\funsets\project\ProgFunBuild.scala -> C:\Program Files\Java\jdk1.8.0_45\jre\lib\rt.jar
+E:\Projects\Scala\Coursera\Assignments\Week2\funsets\project\ProgFunBuild.scala -> C:\Users\Vu\.ivy2\cache\org.scala-sbt\collections\jars\collections-0.13.7.jar
+E:\Projects\Scala\Coursera\Assignments\Week2\funsets\project\ProgFunBuild.scala -> C:\Users\Vu\.ivy2\cache\org.scala-sbt\io\jars\io-0.13.7.jar
+E:\Projects\Scala\Coursera\Assignments\Week2\funsets\project\ProgFunBuild.scala -> C:\Users\Vu\.ivy2\cache\org.scala-sbt\ivy\jars\ivy-0.13.7.jar
+E:\Projects\Scala\Coursera\Assignments\Week2\funsets\project\ProgFunBuild.scala -> C:\Users\Vu\.ivy2\cache\org.scala-sbt\main-settings\jars\main-settings-0.13.7.jar
+E:\Projects\Scala\Coursera\Assignments\Week2\funsets\project\ProgFunBuild.scala -> C:\Users\Vu\.ivy2\cache\org.scala-sbt\main\jars\main-0.13.7.jar
+E:\Projects\Scala\Coursera\Assignments\Week2\funsets\project\ProgFunBuild.scala -> C:\Users\Vu\.ivy2\cache\org.scala-sbt\sbt\jars\sbt-0.13.7.jar
+E:\Projects\Scala\Coursera\Assignments\Week2\funsets\project\ProgFunBuild.scala -> C:\Users\Vu\.ivy2\cache\org.scala-sbt\task-system\jars\task-system-0.13.7.jar
+E:\Projects\Scala\Coursera\Assignments\Week2\funsets\project\ProgFunBuild.scala -> C:\Users\Vu\.ivy2\cache\scala_2.10\sbt_0.13\ch.epfl.lamp\sbt-coursera\jars\sbt-coursera-0.5.jar
+E:\Projects\Scala\Coursera\Assignments\Week2\funsets\project\ProgFunBuild.scala -> C:\Users\Vu\.sbt\boot\scala-2.10.4\lib\scala-library.jar
+direct source dependencies:
+0 items
+direct external dependencies:
+0 items
+public inherited source dependencies:
+0 items
+public inherited external dependencies:
+0 items
+member reference internal dependencies:
+0 items
+member reference external dependencies:
+0 items
+inheritance internal dependencies:
+0 items
+inheritance external dependencies:
+0 items
+class names:
+9 items
+E:\Projects\Scala\Coursera\Assignments\Week2\funsets\project\ProgFunBuild.scala -> ParprogBuild
+E:\Projects\Scala\Coursera\Assignments\Week2\funsets\project\ProgFunBuild.scala -> ParprogBuild$
+E:\Projects\Scala\Coursera\Assignments\Week2\funsets\project\ProgFunBuild.scala -> ParprogBuild$$anonfun$assignmentSettings$1
+E:\Projects\Scala\Coursera\Assignments\Week2\funsets\project\ProgFunBuild.scala -> ParprogBuild$$anonfun$assignmentSettings$2
+E:\Projects\Scala\Coursera\Assignments\Week2\funsets\project\ProgFunBuild.scala -> ParprogBuild$$anonfun$assignmentSettings$3
+E:\Projects\Scala\Coursera\Assignments\Week2\funsets\project\ProgFunBuild.scala -> ParprogBuild$$anonfun$assignmentSettings$4
+E:\Projects\Scala\Coursera\Assignments\Week2\funsets\project\ProgFunBuild.scala -> ParprogBuild$$anonfun$assignmentSettings$4$$anonfun$apply$1
+E:\Projects\Scala\Coursera\Assignments\Week2\funsets\project\ProgFunBuild.scala -> ParprogBuild$$anonfun$assignmentSettings$4$$anonfun$apply$1$$anonfun$1
+E:\Projects\Scala\Coursera\Assignments\Week2\funsets\project\ProgFunBuild.scala -> ParprogBuild$$anonfun$assignmentSettings$4$$anonfun$apply$1$$anonfun$2
+used names:
+71 items
+E:\Projects\Scala\Coursera\Assignments\Week2\funsets\project\ProgFunBuild.scala -> %
+E:\Projects\Scala\Coursera\Assignments\Week2\funsets\project\ProgFunBuild.scala -> %%
+E:\Projects\Scala\Coursera\Assignments\Week2\funsets\project\ProgFunBuild.scala -> *
+E:\Projects\Scala\Coursera\Assignments\Week2\funsets\project\ProgFunBuild.scala -> **
+E:\Projects\Scala\Coursera\Assignments\Week2\funsets\project\ProgFunBuild.scala -> +
+E:\Projects\Scala\Coursera\Assignments\Week2\funsets\project\ProgFunBuild.scala -> +++
+E:\Projects\Scala\Coursera\Assignments\Week2\funsets\project\ProgFunBuild.scala -> +=
+E:\Projects\Scala\Coursera\Assignments\Week2\funsets\project\ProgFunBuild.scala -> /
+E:\Projects\Scala\Coursera\Assignments\Week2\funsets\project\ProgFunBuild.scala -> /:
+E:\Projects\Scala\Coursera\Assignments\Week2\funsets\project\ProgFunBuild.scala -> :=
+E:\Projects\Scala\Coursera\Assignments\Week2\funsets\project\ProgFunBuild.scala -> <<=
+E:\Projects\Scala\Coursera\Assignments\Week2\funsets\project\ProgFunBuild.scala -> <init>
+E:\Projects\Scala\Coursera\Assignments\Week2\funsets\project\ProgFunBuild.scala -> Any
+E:\Projects\Scala\Coursera\Assignments\Week2\funsets\project\ProgFunBuild.scala -> Append
+E:\Projects\Scala\Coursera\Assignments\Week2\funsets\project\ProgFunBuild.scala -> CourseraBuild
+E:\Projects\Scala\Coursera\Assignments\Week2\funsets\project\ProgFunBuild.scala -> InitializeInstance
+E:\Projects\Scala\Coursera\Assignments\Week2\funsets\project\ProgFunBuild.scala -> Keys
+E:\Projects\Scala\Coursera\Assignments\Week2\funsets\project\ProgFunBuild.scala -> ManifestFactory
+E:\Projects\Scala\Coursera\Assignments\Week2\funsets\project\ProgFunBuild.scala -> Nothing
+E:\Projects\Scala\Coursera\Assignments\Week2\funsets\project\ProgFunBuild.scala -> ParprogBuild
+E:\Projects\Scala\Coursera\Assignments\Week2\funsets\project\ProgFunBuild.scala -> PathFinder
+E:\Projects\Scala\Coursera\Assignments\Week2\funsets\project\ProgFunBuild.scala -> Predef
+E:\Projects\Scala\Coursera\Assignments\Week2\funsets\project\ProgFunBuild.scala -> SbtCourseraPlugin
+E:\Projects\Scala\Coursera\Assignments\Week2\funsets\project\ProgFunBuild.scala -> Scoped
+E:\Projects\Scala\Coursera\Assignments\Week2\funsets\project\ProgFunBuild.scala -> Seq
+E:\Projects\Scala\Coursera\Assignments\Week2\funsets\project\ProgFunBuild.scala -> Setting
+E:\Projects\Scala\Coursera\Assignments\Week2\funsets\project\ProgFunBuild.scala -> SettingKey
+E:\Projects\Scala\Coursera\Assignments\Week2\funsets\project\ProgFunBuild.scala -> String
+E:\Projects\Scala\Coursera\Assignments\Week2\funsets\project\ProgFunBuild.scala -> _root_
+E:\Projects\Scala\Coursera\Assignments\Week2\funsets\project\ProgFunBuild.scala -> append1
+E:\Projects\Scala\Coursera\Assignments\Week2\funsets\project\ProgFunBuild.scala -> appendSeq
+E:\Projects\Scala\Coursera\Assignments\Week2\funsets\project\ProgFunBuild.scala -> apply
+E:\Projects\Scala\Coursera\Assignments\Week2\funsets\project\ProgFunBuild.scala -> autoImport
+E:\Projects\Scala\Coursera\Assignments\Week2\funsets\project\ProgFunBuild.scala -> baseDirectory
+E:\Projects\Scala\Coursera\Assignments\Week2\funsets\project\ProgFunBuild.scala -> basedir
+E:\Projects\Scala\Coursera\Assignments\Week2\funsets\project\ProgFunBuild.scala -> ch
+E:\Projects\Scala\Coursera\Assignments\Week2\funsets\project\ProgFunBuild.scala -> classType
+E:\Projects\Scala\Coursera\Assignments\Week2\funsets\project\ProgFunBuild.scala -> collection
+E:\Projects\Scala\Coursera\Assignments\Week2\funsets\project\ProgFunBuild.scala -> commonFiles
+E:\Projects\Scala\Coursera\Assignments\Week2\funsets\project\ProgFunBuild.scala -> commonSourcePackages
+E:\Projects\Scala\Coursera\Assignments\Week2\funsets\project\ProgFunBuild.scala -> commonSrcs
+E:\Projects\Scala\Coursera\Assignments\Week2\funsets\project\ProgFunBuild.scala -> currentProject
+E:\Projects\Scala\Coursera\Assignments\Week2\funsets\project\ProgFunBuild.scala -> details
+E:\Projects\Scala\Coursera\Assignments\Week2\funsets\project\ProgFunBuild.scala -> detailsMap
+E:\Projects\Scala\Coursera\Assignments\Week2\funsets\project\ProgFunBuild.scala -> empty
+E:\Projects\Scala\Coursera\Assignments\Week2\funsets\project\ProgFunBuild.scala -> epfl
+E:\Projects\Scala\Coursera\Assignments\Week2\funsets\project\ProgFunBuild.scala -> error
+E:\Projects\Scala\Coursera\Assignments\Week2\funsets\project\ProgFunBuild.scala -> files
+E:\Projects\Scala\Coursera\Assignments\Week2\funsets\project\ProgFunBuild.scala -> getOrElse
+E:\Projects\Scala\Coursera\Assignments\Week2\funsets\project\ProgFunBuild.scala -> globFilter
+E:\Projects\Scala\Coursera\Assignments\Week2\funsets\project\ProgFunBuild.scala -> handoutFiles
+E:\Projects\Scala\Coursera\Assignments\Week2\funsets\project\ProgFunBuild.scala -> instrumentedClassPrefixes
+E:\Projects\Scala\Coursera\Assignments\Week2\funsets\project\ProgFunBuild.scala -> lamp
+E:\Projects\Scala\Coursera\Assignments\Week2\funsets\project\ProgFunBuild.scala -> libraryDependencies
+E:\Projects\Scala\Coursera\Assignments\Week2\funsets\project\ProgFunBuild.scala -> map
+E:\Projects\Scala\Coursera\Assignments\Week2\funsets\project\ProgFunBuild.scala -> package
+E:\Projects\Scala\Coursera\Assignments\Week2\funsets\project\ProgFunBuild.scala -> packageName
+E:\Projects\Scala\Coursera\Assignments\Week2\funsets\project\ProgFunBuild.scala -> pkg
+E:\Projects\Scala\Coursera\Assignments\Week2\funsets\project\ProgFunBuild.scala -> projectDetailsMap
+E:\Projects\Scala\Coursera\Assignments\Week2\funsets\project\ProgFunBuild.scala -> projectName
+E:\Projects\Scala\Coursera\Assignments\Week2\funsets\project\ProgFunBuild.scala -> pure
+E:\Projects\Scala\Coursera\Assignments\Week2\funsets\project\ProgFunBuild.scala -> reflect
+E:\Projects\Scala\Coursera\Assignments\Week2\funsets\project\ProgFunBuild.scala -> richFile
+E:\Projects\Scala\Coursera\Assignments\Week2\funsets\project\ProgFunBuild.scala -> sbt
+E:\Projects\Scala\Coursera\Assignments\Week2\funsets\project\ProgFunBuild.scala -> scala
+E:\Projects\Scala\Coursera\Assignments\Week2\funsets\project\ProgFunBuild.scala -> set
+E:\Projects\Scala\Coursera\Assignments\Week2\funsets\project\ProgFunBuild.scala -> singleFileFinder
+E:\Projects\Scala\Coursera\Assignments\Week2\funsets\project\ProgFunBuild.scala -> sys
+E:\Projects\Scala\Coursera\Assignments\Week2\funsets\project\ProgFunBuild.scala -> t3ToTable3
+E:\Projects\Scala\Coursera\Assignments\Week2\funsets\project\ProgFunBuild.scala -> toGroupID
+E:\Projects\Scala\Coursera\Assignments\Week2\funsets\project\ProgFunBuild.scala -> ||
+product stamps:
+9 items
+E:\Projects\Scala\Coursera\Assignments\Week2\funsets\project\target\scala-2.10\sbt-0.13\classes\ParprogBuild$$anonfun$assignmentSettings$1.class -> lastModified(1455875999692)
+E:\Projects\Scala\Coursera\Assignments\Week2\funsets\project\target\scala-2.10\sbt-0.13\classes\ParprogBuild$$anonfun$assignmentSettings$2.class -> lastModified(1455875999704)
+E:\Projects\Scala\Coursera\Assignments\Week2\funsets\project\target\scala-2.10\sbt-0.13\classes\ParprogBuild$$anonfun$assignmentSettings$3.class -> lastModified(1455875999713)
+E:\Projects\Scala\Coursera\Assignments\Week2\funsets\project\target\scala-2.10\sbt-0.13\classes\ParprogBuild$$anonfun$assignmentSettings$4$$anonfun$apply$1$$anonfun$1.class -> lastModified(1455875999777)
+E:\Projects\Scala\Coursera\Assignments\Week2\funsets\project\target\scala-2.10\sbt-0.13\classes\ParprogBuild$$anonfun$assignmentSettings$4$$anonfun$apply$1$$anonfun$2.class -> lastModified(1455875999797)
+E:\Projects\Scala\Coursera\Assignments\Week2\funsets\project\target\scala-2.10\sbt-0.13\classes\ParprogBuild$$anonfun$assignmentSettings$4$$anonfun$apply$1.class -> lastModified(1455875999758)
+E:\Projects\Scala\Coursera\Assignments\Week2\funsets\project\target\scala-2.10\sbt-0.13\classes\ParprogBuild$$anonfun$assignmentSettings$4.class -> lastModified(1455875999723)
+E:\Projects\Scala\Coursera\Assignments\Week2\funsets\project\target\scala-2.10\sbt-0.13\classes\ParprogBuild$.class -> lastModified(1455875999672)
+E:\Projects\Scala\Coursera\Assignments\Week2\funsets\project\target\scala-2.10\sbt-0.13\classes\ParprogBuild.class -> lastModified(1455875999573)
+source stamps:
+1 items
+E:\Projects\Scala\Coursera\Assignments\Week2\funsets\project\ProgFunBuild.scala -> hash(0e7b276f35c04d7f63f1c14d139cca30dca04dc3)
+binary stamps:
+10 items
+C:\Program Files\Java\jdk1.8.0_45\jre\lib\rt.jar -> lastModified(1436940947249)
+C:\Users\Vu\.ivy2\cache\org.scala-sbt\collections\jars\collections-0.13.7.jar -> lastModified(1429632568000)
+C:\Users\Vu\.ivy2\cache\org.scala-sbt\io\jars\io-0.13.7.jar -> lastModified(1429630435000)
+C:\Users\Vu\.ivy2\cache\org.scala-sbt\ivy\jars\ivy-0.13.7.jar -> lastModified(1429631756000)
+C:\Users\Vu\.ivy2\cache\org.scala-sbt\main-settings\jars\main-settings-0.13.7.jar -> lastModified(1429632924000)
+C:\Users\Vu\.ivy2\cache\org.scala-sbt\main\jars\main-0.13.7.jar -> lastModified(1429630532000)
+C:\Users\Vu\.ivy2\cache\org.scala-sbt\sbt\jars\sbt-0.13.7.jar -> lastModified(1429631778000)
+C:\Users\Vu\.ivy2\cache\org.scala-sbt\task-system\jars\task-system-0.13.7.jar -> lastModified(1429631608000)
+C:\Users\Vu\.ivy2\cache\scala_2.10\sbt_0.13\ch.epfl.lamp\sbt-coursera\jars\sbt-coursera-0.5.jar -> lastModified(1428937730000)
+C:\Users\Vu\.sbt\boot\scala-2.10.4\lib\scala-library.jar -> lastModified(1395179160000)
+class names:
+10 items
+C:\Program Files\Java\jdk1.8.0_45\jre\lib\rt.jar -> java.lang.Object
+C:\Users\Vu\.ivy2\cache\org.scala-sbt\collections\jars\collections-0.13.7.jar -> sbt.LinePosition$
+C:\Users\Vu\.ivy2\cache\org.scala-sbt\io\jars\io-0.13.7.jar -> sbt.FileFilter
+C:\Users\Vu\.ivy2\cache\org.scala-sbt\ivy\jars\ivy-0.13.7.jar -> sbt.impl.GroupID
+C:\Users\Vu\.ivy2\cache\org.scala-sbt\main-settings\jars\main-settings-0.13.7.jar -> sbt.SettingKey
+C:\Users\Vu\.ivy2\cache\org.scala-sbt\main\jars\main-0.13.7.jar -> sbt.Keys$
+C:\Users\Vu\.ivy2\cache\org.scala-sbt\sbt\jars\sbt-0.13.7.jar -> sbt.package$
+C:\Users\Vu\.ivy2\cache\org.scala-sbt\task-system\jars\task-system-0.13.7.jar -> sbt.Task
+C:\Users\Vu\.ivy2\cache\scala_2.10\sbt_0.13\ch.epfl.lamp\sbt-coursera\jars\sbt-coursera-0.5.jar -> ch.epfl.lamp.CourseraBuild
+C:\Users\Vu\.sbt\boot\scala-2.10.4\lib\scala-library.jar -> scala.collection.Seq$
+internal apis:
+1 items
+E:\Projects\Scala\Coursera\Assignments\Week2\funsets\project\ProgFunBuild.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHD6KS1iAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAKnNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cKrACzd0AAZub3RpZnlzcQB+AAz4VunwdAAEd2FpdHNxAH4ADF7Z74t0AA0kYXNJbnN0YW5jZU9mc3EAfgAMbbMNSXQADGJ1aWxkTG9hZGVyc3NxAH4ADPIvCQF0ABpncmFkZVByb2plY3REZXRhaWxzU2V0dGluZ3NxAH4ADOHlU110AAZlcXVhbHNzcQB+AAyFlvdDdAAMZ3JhZGVTZXR0aW5nc3EAfgAMIx7fonQADGFzSW5zdGFuY2VPZnNxAH4ADP9Wmcx0ABJwcm9qZWN0RGVmaW5pdGlvbnNzcQB+AAz4/sGQdAAPc2V0TWF4U2NvcmVIb29rc3EAfgAM+X2kZXQAEnNldE1heFNjb3JlU2V0dGluZ3NxAH4ADLI6OPR0AAxzeW5jaHJvbml6ZWRzcQB+AAwqNT39dAANJGlzSW5zdGFuY2VPZnNxAH4ADC9RAhJ0ABlpbnN0cnVtZW50ZWRDbGFzc1ByZWZpeGVzc3EAfgAMj2fLXnQAGXNlbGVjdFJlc291cmNlc0ZvclByb2plY3RzcQB+AAz4nU0udAAJbm90aWZ5QWxsc3EAfgAMIyDTMHQAC3Jvb3RQcm9qZWN0c3EAfgAMF5j2OHQADFBhcnByb2dCdWlsZHNxAH4ADOjw2P10AAxpc0luc3RhbmNlT2ZzcQB+AAwEnWtedAATZ3JhZGVQcm9qZWN0RGV0YWlsc3NxAH4ADIzFEHx0ABl0ZXN0U291cmNlc0Zyb21Bc3NpZ25tZW50c3EAfgAMaJGLe3QAEmFzc2lnbm1lbnRTZXR0aW5nc3NxAH4ADON9EX10AAVncmFkZXNxAH4ADNLqezN0AAI9PXNxAH4ADLz1bCd0ABFzdWJtaXNzaW9uUHJvamVjdHNxAH4ADE5ZoW50AAVjbG9uZXNxAH4ADO0K3wx0AAtzZXRNYXhTY29yZXNxAH4ADMV5bxF0ABFhc3NpZ25tZW50UHJvamVjdHNxAH4ADOcLD7h0AAh0b1N0cmluZ3NxAH4ADELhfRR0AAIhPXNxAH4ADLOT5Tt0AAhwcm9qZWN0c3NxAH4ADOupOs10ABdyZXNvdXJjZXNGcm9tQXNzaWdubWVudHNxAH4ADFFwv/90AAhnZXRDbGFzc3NxAH4ADGkjO7d0ABVzZWxlY3RUZXN0c0ZvclByb2plY3RzcQB+AAwNHHf2dAACbmVzcQB+AAyi4GC/dAAMZGVwZW5kZW5jaWVzc3EAfgAMfIqxp3QAAmVxc3EAfgAM6ZgalHQACHNldHRpbmdzc3EAfgAMpVatdXQAAiMjc3EAfgAMFAuJd3QACGZpbmFsaXplc3EAfgAMbzZf/XQACGhhc2hDb2Rlc3EAfgAMQuJKhHQAG3N0eWxlQ2hlY2tTdWJtaXNzaW9uU2V0dGluZ3NyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AGt4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc8cREyFpnNwkAgABQgAFZmxhZ3N4cABxAH4AMXVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQABk1vZHVsZXVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgATeHNidGkuU2FmZUxhenkkSW1wbFACLpOXl0A/AgADWgAIYml0bWFwJDBMAAJfdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wABGV2YWx0ABFMc2NhbGEvRnVuY3Rpb24wO3hyABZ4c2J0aS5hcGkuQWJzdHJhY3RMYXp503e1AV+756ACAAB4cABwc3IAIHhzYnRpLlNhZmVMYXp5JCRhbm9uZnVuJHN0cmljdCQxAAAAAAAAAAACAAFMAAd2YWx1ZSQxcQB+AIN4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AIIAcHNxAH4Ah3NyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBrTAAJaW5oZXJpdGVkcQB+AGtMAAdwYXJlbnRzcQB+AGt4cQB+AItzcQB+AIIAcHNxAH4Ah3VxAH4AZgAAAABzcQB+AIIAcHNxAH4Ah3VxAH4AZgAAAABzcQB+AIIAcHNxAH4Ah3VyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAAEc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AinQADUNvdXJzZXJhQnVpbGRzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AIpzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAARzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQAAmNoc3EAfgCndAAEZXBmbHNxAH4Ap3QABGxhbXBzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4AqHNxAH4Am3QABUJ1aWxkc3EAfgCfc3EAfgCidXEAfgClAAAAAnNxAH4Ap3QAA3NidHEAfgCwc3EAfgCbdAAGT2JqZWN0c3EAfgCfc3EAfgCidXEAfgClAAAAA3NxAH4Ap3QABGphdmFzcQB+AKd0AARsYW5ncQB+ALBzcQB+AJt0AANBbnlzcQB+AJ9zcQB+AKJ1cQB+AKUAAAACc3EAfgCndAAFc2NhbGFxAH4AsHVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAAAc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFS+Pit+nVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0AF9FOlxQcm9qZWN0c1xTY2FsYVxDb3Vyc2VyYVxBc3NpZ25tZW50c1xXZWVrMlxmdW5zZXRzXHByb2plY3RcdGFyZ2V0XHNjYWxhLTIuMTBcc2J0LTAuMTNcY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFA57J281wE1/Y/HBTROcyjDcoE3D
+external apis:
+0 items
+source infos:
+1 items
+E:\Projects\Scala\Coursera\Assignments\Week2\funsets\project\ProgFunBuild.scala -> 
+AAAAAAAAAAA=
+compilations:
+1 items
+0 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUvj4rfp1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAX0U6XFByb2plY3RzXFNjYWxhXENvdXJzZXJhXEFzc2lnbm1lbnRzXFdlZWsyXGZ1bnNldHNccHJvamVjdFx0YXJnZXRcc2NhbGEtMi4xMFxzYnQtMC4xM1xjbGFzc2VzdAABLw==
