@@ -209,7 +209,13 @@ object Huffman {
    *    the example invocation. Also define the return type of the `until` function.
    *  - try to find sensible parameter names for `xxx`, `yyy` and `zzz`.
    */
-    def until(xxx: ???, yyy: ???)(zzz: ???): ??? = ???
+    def until(isSingleTree: List[CodeTree] => Boolean, combineCodeTrees: List[CodeTree] => List[CodeTree])(trees: List[CodeTree]): CodeTree = {
+      if (isSingleTree(trees)) trees.head
+      else {
+        val newCodeTrees: List[CodeTree] = combineCodeTrees(trees)
+        until(isSingleTree, combineCodeTrees)(newCodeTrees)
+      }
+  }
   
   /**
    * This function creates a code tree which is optimal to encode the text `chars`.
@@ -217,7 +223,10 @@ object Huffman {
    * The parameter `chars` is an arbitrary text. This function extracts the character
    * frequencies from that text and creates a code tree based on them.
    */
-    def createCodeTree(chars: List[Char]): CodeTree = ???
+    def createCodeTree(chars: List[Char]): CodeTree = {
+      val leavesList = makeOrderedLeafList(times(chars))
+      until(singleton, combine)(leavesList)
+  }
   
 
   // Part 3: Decoding
@@ -228,7 +237,16 @@ object Huffman {
    * This function decodes the bit sequence `bits` using the code tree `tree` and returns
    * the resulting list of characters.
    */
-    def decode(tree: CodeTree, bits: List[Bit]): List[Char] = ???
+    def decode(tree: CodeTree, bits: List[Bit]): List[Char] = {
+      bits match {
+        case Nil => Nil
+        case head::list => {
+          tree match {
+            case Leaf()
+          }
+        }
+      }
+  }
   
   /**
    * A Huffman coding tree for the French language.
