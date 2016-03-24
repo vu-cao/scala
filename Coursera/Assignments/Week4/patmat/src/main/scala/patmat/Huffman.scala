@@ -238,15 +238,30 @@ object Huffman {
    * the resulting list of characters.
    */
     def decode(tree: CodeTree, bits: List[Bit]): List[Char] = {
-      bits match {
-        case Nil => Nil
-        case head::list => {
-          tree match {
-            case Leaf()
+      def execute(newTree: CodeTree, bits: List[Bit], result: List[Char]): List[Char] = {
+        def append(c: Char, list: List[Char]): List[Char] = {
+          list match {
+            case Nil => List(c)
+            case head::tail => head::append(c, tail)
           }
         }
+
+        newTree match {
+          case Leaf(c, _) => {
+            val newResult = append(c, result)
+            execute(tree, bits, newResult)
+          }
+          case Fork(node1, node2, _, _) =>
+            bits match {
+              case Nil => result
+              case head::tail =>
+                if (head == 0) execute(node1, tail, result)
+                else execute(node2, tail, result)
+            }
+        }
       }
-  }
+      execute(tree, bits, Nil)
+    }
   
   /**
    * A Huffman coding tree for the French language.
@@ -264,7 +279,9 @@ object Huffman {
   /**
    * Write a function that returns the decoded secret
    */
-    def decodedSecret: List[Char] = ???
+    def decodedSecret: List[Char] = {
+      decode(frenchCode, secret)
+    }
   
 
   // Part 4a: Encoding using Huffman tree
@@ -273,7 +290,53 @@ object Huffman {
    * This function encodes `text` using the code tree `tree`
    * into a sequence of bits.
    */
-    def encode(tree: CodeTree)(text: List[Char]): List[Bit] = ???
+    def encode(tree: CodeTree)(text: List[Char]): List[Bit] = {
+      def choosePath(node: CodeTree, char:Char): Boolean = {
+        node match {
+          case Leaf(c, _) =>
+            if (c == char) true
+            else false
+          case Fork(_, _, chars, _) =>
+            if (chars.contains(char)) true
+            else false
+        }
+      }
+      def append(bit: Bit, list: List[Bit]): List[Bit] = {
+        list match {
+          case Nil => bit::Nil
+          case head::tail => head::append(bit, tail)
+        }
+      }
+      def encodeAChar(tree: CodeTree)(char: Char, result: List[Bit]): List[Bit] = {
+        tree match {
+          case Leaf(c, _) =>
+            if (c == char) result
+            else throw new IllegalArgumentException
+          case Fork(node1, node2, _, _) => {
+            if (choosePath(node1, char)) {
+              val newResult = append(0, result)
+              encodeAChar(node1)(char, newResult)
+            }
+            else
+              if (choosePath(node2, char)) {
+                val newResult = append(1, result)
+                encodeAChar(node2)(char, newResult)
+              }
+              else throw new IllegalArgumentException
+          }
+        }
+      }
+      def execute(tree: CodeTree)(text:List[Char], result: List[Bit]): List[Bit] = {
+        text match {
+          case Nil => result
+          case head::tail => {
+            val newResult = encodeAChar(tree)(head, result)
+            execute(tree)(tail, newResult)
+          }
+        }
+      }
+      execute(tree)(text, Nil)
+    }
   
   // Part 4b: Encoding using code table
 
@@ -283,7 +346,14 @@ object Huffman {
    * This function returns the bit sequence that represents the character `char` in
    * the code table `table`.
    */
-    def codeBits(table: CodeTable)(char: Char): List[Bit] = ???
+    def codeBits(table: CodeTable)(char: Char): List[Bit] = {
+      table match {
+        case Nil => throw new IllegalArgumentException
+        case head::tail =>
+          if (head._1 == char) head._2
+          else codeBits(tail)(char)
+      }
+    }
   
   /**
    * Given a code tree, create a code table which contains, for every character in the
@@ -293,20 +363,69 @@ object Huffman {
    * a valid code tree that can be represented as a code table. Using the code tables of the
    * sub-trees, think of how to build the code table for the entire tree.
    */
-    def convert(tree: CodeTree): CodeTable = ???
+    def convert(tree: CodeTree): CodeTable = {
+      def append(bit: Bit, list: List[Bit]): List[Bit] = {
+        list match {
+          case Nil => bit::Nil
+          case head::tail => head::append(bit, tail)
+        }
+      }
+      def execute(tree: CodeTree, list: List[Bit], result: CodeTable): CodeTable = {
+        tree match {
+          case Leaf(c, _) => (c, list)::result
+          case Fork(node1, node2, _, _) => {
+            val newList0 = append(0, list)
+            execute(node1, newList0, result)
+            val newList1 = append(1, list)
+            execute(node2, newList1, result)
+          }
+        }
+      }
+      execute(tree, Nil, Nil)
+    }
   
   /**
    * This function takes two code tables and merges them into one. Depending on how you
    * use it in the `convert` method above, this merge method might also do some transformations
    * on the two parameter code tables.
    */
-    def mergeCodeTables(a: CodeTable, b: CodeTable): CodeTable = ???
-  
+    def mergeCodeTables(a: CodeTable, b: CodeTable): CodeTable = {
+      a match {
+        case Nil => b
+        case head::tail => head::mergeCodeTables(tail, b)
+      }
+    }
+
   /**
    * This function encodes `text` according to the code tree `tree`.
    *
    * To speed up the encoding process, it first converts the code tree to a code table
    * and then uses it to perform the actual encoding.
    */
-    def quickEncode(tree: CodeTree)(text: List[Char]): List[Bit] = ???
+    def quickEncode(tree: CodeTree)(text: List[Char]): List[Bit] = {
+      val codeTable = convert(tree)
+      def append(l: List[Bit], list: List[Bit]): List[Bit] = {
+        list match {
+          case Nil => l
+          case head::tail => head::append(l, tail)
+        }
+      }
+      def findChar(codeTable: CodeTable)(char: Char): List[Bit] = {
+        codeTable match {
+          case Nil => throw new Error("Empty Code Table")
+          case head::tail =>
+            if (head._1 == char) head._2
+            else findChar(tail)(char)
+        }
+      }
+      def execute(codeTable: CodeTable)(text: List[Char], result: List[Bit]): List[Bit] = {
+        text match {
+          case Nil => Nil
+          case head::tail => {
+            val newResult = append(findChar(codeTable)(head), result)
+            execute(codeTable)(tail, newResult)
+          }
+        }
+      }
+    }
   }
